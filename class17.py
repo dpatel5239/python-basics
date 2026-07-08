@@ -77,3 +77,20 @@ student_detail(31,"dipak",89,37,45,36,90)
 student_detail(32,"mayank",10,3,5,0,1)
 student_detail(33,"sugandh",9,3,4,5,3)
 student_detail(34,"aftab")
+
+# docstring => docstrings are the good thing to be written inside the function after the function defination so that we can describe the arguments , what is its retun values and what is going to happen inside the function.
+# note = docstring can be viewed sing help(function_name) or _doc_
+
+def divide(number1,number2):
+    """
+    number1: A number to be divided (Numerator)
+    number2: A number that divides number1 (Denominator)
+    :return: float(if number2 is non-zero) OR str(if number2 is 0)
+    """
+    if number2 == 0:
+        return "cannot divide as the denominator is zero"
+    else:
+        result = number1/number2
+        return result
+print(divide(10,20))
+help(divide)
