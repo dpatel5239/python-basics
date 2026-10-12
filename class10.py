@@ -10,7 +10,7 @@ nums = {1,2,0,-1}
 nums.add(3)
 print(nums)
 
-#2) remove()=> this function is used to get remove the element from the det permanantaly.
+#2) remove()=> this function is used to get remove the element from the set permanantaly.
 nums.remove(2)
 
 #3) discard() => this function is similar to the remove function but it does not give any error if the removing element is absent in the sets

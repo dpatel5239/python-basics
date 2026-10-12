@@ -94,3 +94,9 @@ def divide(number1,number2):
         return result
 print(divide(10,20))
 help(divide)
+# local and global value = local varaible or values are the built inthe function and used by function but global variable is used by all functions and non functions .
+
+def my_function():
+    message = " Hello ! My name is dipak ! have a nice day ."
+    print(message)
+my_function()

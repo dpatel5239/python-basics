@@ -1,5 +1,5 @@
 ######################################## random module###################################
-# module is also known as python files in which python codes are written on it . we have many in build modules whicjh have function likes print() etc .
+# module is also known as python files in which python codes are written on it . we have many in build modules which have function likes print() etc .
 # few functions of random module
 #1) random() => it is used to get random float value between 0.0 to 1.0 where 1 is not included 
 import random 

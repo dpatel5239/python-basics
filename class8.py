@@ -68,7 +68,7 @@ print("DIPAK" not in student)
 #nested list => we can also create list in an other list and so on 
 l1 = [12,"dipak","$",55,[45,7,18,[10,1]]]
 print( " the length of the l1 list is ", len(l1))
-print(l1[-1][-1][-1])
+print(l1[-1][-1][-1])  
 
 # shallow copy => it is the used to copy the elements of the one list to another list 
 import copy
